@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/etStudentName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="enter your full name" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/etStudentNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="enter your student number" />
+
+    <Button
+        android:id="@+id/btReturn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Return result" />
+
+</LinearLayout>
